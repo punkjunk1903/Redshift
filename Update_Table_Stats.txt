@@ -1,0 +1,7 @@
+Updates table statistics for use by the query planner. 
+
+You do not need to run the ANALYZE command on these tables when they are first created. If you modify them, you should analyze them in the same way as other tables. 
+
+
+
+analyze <table>;
